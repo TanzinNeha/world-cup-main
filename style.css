@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  color: white;
+}
+
+#header .container {
+  max-width: 1100px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.9);
+  margin-top: 50px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header .main,
+#header .right-view {
+  width: 50%;
+}
+
+#header .main {
+  padding: 50px;
+}
+
+#header .main h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+#header .main p {
+  font-family: "Rajdhani";
+  font-size: 18px;
+  margin: 15px 0;
+  color: beige;
+}
+
+#header .main .btn {
+  background: red;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: 700;
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+#header .right-view {
+  padding-top: 30px;
+}
+
+#header .right-view img {
+  height: 490px;
+}
+
+#blog {
+  margin: 50px;
+}
+
+#blog .container {
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#blog .main {
+  width: 25%;
+  background: black;
+  height: 230px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#blog .main .active {
+  background: red;
+}
+
+#blog .main .active a {
+  color: white;
+}
+
+#blog .main ul {
+  padding: 10px;
+}
+
+#blog .main ul li {
+  list-style: none;
+  padding: 15px 20px;
+  background: white;
+  color: black;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+#blog .main ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+#blog .right-view {
+  width: 75%;
+  margin: 10px;
+}
+
+#blog .right-view .d-flexs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#blog .right-view .d-flex {
+  display: block;
+}
+
+#blog .right-view .d-flex .card {
+  display: inline-block;
+  max-width: 29%;
+  width: 100%;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#blog .right-view .d-flex .card img {
+  width: 30%;
+}
+
+#blog .right-view .d-flex .card a {
+  padding: 4px 10px;
+  border: 1px solid #252121;
+  text-decoration: none;
+  color: #181414;
+}
+
+#blog .right-view .d-flex .card .title {
+  margin: 15px 0px;
+  font-family: serif;
+  font-weight: 600;
+}
+.hov{
+  background-color: rgb(255, 255, 255);
+}
+.hov:hover{
+  background-color: #ee4a4a;
+}
+#blog .right-view .d-flex .card .card-container {
+  padding: 10px;
+}
+
+#blog .right-view .d-flex .card .card-container i {
+  font-weight: 500;
+  color: #745151;
+}
+
+#footer {
+  background: #221e1e;
+  color: white;
+  margin-top: 50px;
+  padding: 100px 0;
+}
+
+#footer hr {
+  margin: 20px 0;
+  color: #a98f8f75 !important;
+}
+
+#footer h3 {
+  font-family: "Rajdhani";
+  font-size: 30px;
+  text-align: center;
+}
+
+#footer .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#footer .container .d-flex {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#footer .container .d-flex li {
+  list-style: none;
+}
+
+#footer .container .d-flex li a {
+  text-decoration: none;
+  color: white;
+}
+/**/
+#one{
+    color: rgb(255, 255, 255);
+    
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin:0.5rem;
+    margin-left: 20%;
+   
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+/**/
+
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  #header .container {
+    max-width: 768px;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+  }
+  #header .main h2 {
+    font-size: 50px;
+  }
+  #header .right-view {
+    padding-top: 85px;
+  }
+  #header .right-view img {
+    height: 400px;
+  }
+  #header .main .btn {
+    padding: 20px 30px;
+    margin: 0;
+  }
+  #blog .container {
+    max-width: 992px;
+    display: block;
+  }
+  #blog .main {
+    width: 100%;
+    height: 97px;
+  }
+  #blog .main ul {
+    display: flex;
+  }
+  #blog .main ul li {
+    width: 33.33%;
+  }
+  #blog .right-view {
+    width: 100%;
+    margin: 0;
+  }
+  #blog .right-view .d-flex {
+    display: block;
+  }
+  #blog .right-view .d-flex .card {
+    max-width: 46% !important;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 420px) {
+  #header .container {
+    max-width: 420px;
+    display: block;
+    margin-top: 0;
+  }
+  #header .main,
+  #header .right-view {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  #header .main h2 {
+    font-size: 35px;
+  }
+  .tablet-view {
+    padding: 40px;
+    text-align: center;
+  }
+
+  #header .main .btn {
+    margin: 20px auto;
+  }
+
+  #header .right-view img {
+    height: 350px;
+  }
+
+  /* blog responsive */
+  #blog .container {
+    max-width: 420px;
+    display: block;
+  }
+
+  #blog .main {
+    width: 100%;
+    height: 223px;
+  }
+  #blog .main ul{
+    display: block;
+  }
+  #blog .main ul li{
+    width: 77%;
+  }
+  #blog .right-view {
+    width: 100%;
+    margin: 0;
+  }
+  #blog .right-view .d-flex {
+    display: block;
+  }
+  #blog .right-view .d-flex .card {
+    max-width: 100%;
+    margin: 20px 0;
+    display: inline;
+  }
+
+  #footer .container .d-flex {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0px;
+  }
+
+  #footer .container .d-flex li a {
+    font-size: 22px;
+  }
+
+  #footer .container .d-flex li {
+    margin: 15px 0;
+  }
+}
+@media only screen and(max-width: 1200px) {
+   
+    #one {
+    position: relative;
+    margin-top: 30%;
+    color: white;
+    font-size: 2em;
+
+    }
+
+}
